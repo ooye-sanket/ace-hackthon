@@ -19,21 +19,7 @@ const App: React.FunctionComponent<AppProps> = ({
   return (
     <React.Fragment>
       <AnnouncementBar>
-        <div className="announcement-content">
-          <span className="text-xs flex flex-row items-center justify-start gap-1 max-sm:flex-col">
-            {"Build Program by HEKORS is now live"}
-            <span className="max-sm:mb-1">
-              Applications are now open, start from{" "}
-              <Link
-                href="https://hekors-build-program.vercel.app/"
-                target="_blank"
-                className="underline"
-              >
-                {"🎒 Build Program"}
-              </Link>
-            </span>
-          </span>
-        </div>
+        <div></div>
       </AnnouncementBar>
       <Navbar />
       <Component {...pageProps} />
