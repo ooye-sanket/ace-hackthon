@@ -47,15 +47,9 @@ const Navbar: React.FunctionComponent<NavbarOptionType> = () => {
         >
           
         </Link>
-        
-
-        <Link
-              href="https://www.linkedin.com/in/sanketkalekar/"
-              className="mt-12"
-              target="_blank"
-            >
-              <Button shade="product-purple-light">{"Join US!!"}</Button>
-            </Link>
+        <Link href="/events">
+          <Button type="secondary">{"Attend an event"}</Button>
+        </Link>
       </div>
     </div>
   );

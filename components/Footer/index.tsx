@@ -21,7 +21,7 @@ const Footer: React.FunctionComponent<Props> = () => {
             <Image src="/local-hub.svg" alt="localhub" width="60" height="60" />
             <span className="hekors-title-tagline-wrapper flex flex-col items-start justify-start w-fit h-auto">
               <span className="hekors-title font-product-bungee text-product-brown text-3xl">
-                {"LocalHub"}
+                {"hekors"}
               </span>
               <span className="hekors-tagline font-product-manrope text-product-brown text-sm font-semibold w-[24ch]">
                 {"Advocating Open Source, Hackathons and Engineering"}

@@ -25,12 +25,13 @@ const Home: NextPage = () => {
               <span>{"Public Knowledge."}</span>
               <span>{"Collective Creation."}</span>
             </h1>
-            <Link href="/events">
-          <Button type="secondary">{"Attend an event"}</Button>
-        </Link>
-
-
-
+            <Link
+              href="https://www.linkedin.com/in/sanketkalekar/"
+              className="mt-12"
+              target="_blank"
+            >
+              <Button shade="product-purple-light">{"Join US!!"}</Button>
+            </Link>
           </div>
           <EmojiLayer />
         </main>
