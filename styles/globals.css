@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* importing style modules */
+@import url("./typography.css");
+@import url("./button-styles.css");
+
+body,
+html {
+  @apply font-product-manrope;
+}
+
+.wrapped-view {
+  @apply mx-auto;
+  max-width: 1200px;
+}
+
+.image-squircle {
+  border-radius: 8px;
+}
+
+.checks-container {
+  background-image: url("../public/checks-bg.svg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply py-24;
+}
+
+/* width */
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: rgb(129, 129, 129, 0.5);
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #bbbbbb80;
+}
+
+/* Callout Override, Events Page */
+.small-callout >  span.callout-icon-wrapper > img{
+      @apply max-sm:w-[44px]
+}
