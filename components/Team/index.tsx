@@ -18,21 +18,7 @@ import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Team: React.FunctionComponent<TeamMemberCardType> = () => {
   const [teamMembersData, setTeamMembersData] = useState<any>(TeamMembersData);
 
-  // START: temporary code removal: THIS CODE BLOCK WILL BE UNDER USAGE AFTER STRAPI FIX ========
-  // useEffect(() => {
-  //   (async () => {
-  //     await getTeamData()
-  //       .then((dataResponse) => {
-  //         console.log("logging from team", dataResponse);
-  //         setTeamMembersData(dataResponse);
-  //       })
-  //       .catch((err) => {
-  //         console.log("Error log from Teams Page: ", err);
-  //       });
-  //   }).call({});
-  //   console.log("data from component: ", teamMembersData);
-  // }, []);
-  // END: temporary code removal: THIS CODE BLOCK WILL BE UNDER USAGE AFTER STRAPI FIX ========
+  
 
   return (
     <React.Fragment>

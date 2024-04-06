@@ -21,7 +21,7 @@ const NotFound: NextPage = () => {
           </h1>
           <Image
             src="/police.svg"
-            alt="hekors-police"
+            alt="localhub-police"
             width="300"
             height="300"
             priority

@@ -2,7 +2,7 @@ import { MetaHeadType } from '@/types/meta-head-type'
 import Head from 'next/head'
 
 const MetaHead: React.FunctionComponent<MetaHeadType> = ({
-  title="HEKORS Community",
+  title="Local-hub Community",
   description="Learn in public, Build in public",
   children
 }: MetaHeadType, props) => {

@@ -18,7 +18,7 @@ const Footer: React.FunctionComponent<Props> = () => {
       <section className="footer-section my-24 py-12 max-sm:mb-8 max-sm:mt-0 max-sm:py-0">
         <div className="footer-content-wrapper wrapped-view border-b pb-6">
           <div className="logo-wrapper flex flex-row items-start justify-start w-fit h-auto gap-3 max-sm:items-center max-sm:mx-auto ">
-            <Image src="/hekors-logo.svg" alt="hekors" width="60" height="60" />
+            <Image src="/local-hub.svg" alt="localhub" width="60" height="60" />
             <span className="hekors-title-tagline-wrapper flex flex-col items-start justify-start w-fit h-auto">
               <span className="hekors-title font-product-bungee text-product-brown text-3xl">
                 {"hekors"}
@@ -135,7 +135,7 @@ const Footer: React.FunctionComponent<Props> = () => {
           </div>
           <p className="mt-4 text-center text-sm text-gray-400 cursor-default select-none">
             &copy;{" "}
-            {"HEKORS Community " +
+            {"Local-hub Community " +
               new Date().getFullYear() +
               "-" +
               Number(new Date().getFullYear() + 1)}

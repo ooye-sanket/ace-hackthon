@@ -1,56 +1,76 @@
 [
   {
-    "picture": "/team/yash.jpg",
+    "picture": "/team/sanket.jpg",
     "fullName": {
-      "firstName": "Yash",
-      "lastName": "Sehgal"
+      "firstName": "Sanket",
+      "lastName": "kalekar"
     },
     "isAvenger": true,
     "directWebsite": {
-      "label": "website/yashsehgal",
-      "link": "https://yashsehgal.com"
+      "label": "website/ooyesanket",
+      "link": "https://ooyesanket.netlify.app/"
     },
     "socialProfile": {
-      "twitterUsername": "yashsehgaldev",
-      "instagramUsername": "sehgalyash_",
-      "linkedInUsername": "sehgalyash",
-      "githubUsername": "yashsehgal"
+      "twitterUsername": "ooye_sanket",
+      "instagramUsername": "ooye.sanket",
+      "linkedInUsername": "sanketkalekar",
+      "githubUsername": "ooye-sanket"
     }
   },
   {
-    "picture": "/team/sumit.jpg",
+    "picture": "/team/sattyam1.jpg",
     "fullName": {
-      "firstName": "Sumit",
-      "lastName": "Singh"
+      "firstName": "Sattyam",
+      "lastName": "Samania"
     },
     "isAvenger": true,
     "directWebsite": {
-      "label": "website/wh0sumit",
-      "link": "http://wh0sumit.vercel.app"
+      "label": "website/devsattyam",
+      "link": "https://next-portfolio-sattyam-fygtvdhcp-sattyamsamania.vercel.app/"
     },
     "socialProfile": {
-      "twitterUsername": "wh0sumit",
-      "instagramUsername": "wh0sumit",
-      "linkedInUsername": "wh0sumit",
-      "githubUsername": "wh0sumit"
+      "twitterUsername": "Sattyam15",
+      "instagramUsername": "hrttaker_sam",
+      "linkedInUsername": "sattyam-samania-3691711b9",
+      "githubUsername": "SattyamSamania"
     }
   },
   {
-    "picture": "/team/nishant.jpg",
+    "picture": "/team/aakash.jpg",
     "fullName": {
-      "firstName": "Nishant",
-      "lastName": "Jain"
+      "firstName": "Akash",
+      "lastName": "prajapati"
     },
     "isAvenger": true,
     "directWebsite": {
-      "label": "website/devnishant",
-      "link": "http://devnishant.vercel.app"
+      "label": "github/akashprajapatiroyal",
+      "link": "https://github.com/akashprajapatiroyal"
     },
     "socialProfile": {
-      "twitterUsername": "devnishant10",
-      "instagramUsername": "nishant.jain_10",
-      "linkedInUsername": "nishantj2002",
-      "githubUsername": "nishantjain10"
+      "twitterUsername": "the_royalle_ap",
+      "instagramUsername": "",
+      "linkedInUsername": "",
+      "githubUsername": ""
+    }
+  },
+  {
+    "picture": "/team/keshav.jpg",
+    "fullName": {
+      "firstName": "keshav",
+      "lastName": "gupta"
+    },
+    "isAvenger": true,
+    "directWebsite": {
+      "label": "website/devkeshav",
+      "link": "https://keshavkantgupta.me"
+    },
+    "socialProfile": {
+      "twitterUsername": "",
+      "instagramUsername": "",
+      "linkedInUsername": "",
+      "githubUsername": ""
     }
   }
+  
+  
 ]
