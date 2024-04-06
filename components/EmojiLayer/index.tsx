@@ -47,7 +47,7 @@ const EmojiLayer: React.FunctionComponent<EmojiType> = () => {
                       </p>
                       <div className="my-6 flex flex-col items-start justify-start gap-3">
                         <Link
-                          href="https://hekors-build-program.vercel.app/"
+                          href="https://localhub.vercel.app/"
                           target={"_blank"}
                           className="underline font-medium text-product-blue"
                         >

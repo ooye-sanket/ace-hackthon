@@ -32,7 +32,7 @@ const Team: React.FunctionComponent<TeamMemberCardType> = () => {
               <span>{"Meet the"}</span>
               <span className="text-product-orange">{" builders"}</span>
             </span>
-            <span className="text-white">{"behind hekors."}</span>
+            <span className="text-white">{"behind localhub."}</span>
           </h1>
 
           <div className="team-members-list-wrapper mt-12 flex flex-row items-start justify-start gap-12 max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:mx-auto">
