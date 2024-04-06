@@ -19,7 +19,7 @@ const App: React.FunctionComponent<AppProps> = ({
   return (
     <React.Fragment>
       <AnnouncementBar>
-<<<<<<< HEAD
+
         <div className="announcement-content">
           <span className="text-xs flex flex-row items-center justify-start gap-1 max-sm:flex-col">
             {"Build your community with US."}
@@ -35,9 +35,7 @@ const App: React.FunctionComponent<AppProps> = ({
             </span>
           </span>
         </div>
-=======
         <div></div>
->>>>>>> ad467f8a44eb34be470faf8326a7a25bec1d60ee
       </AnnouncementBar>
       <Navbar />
       <Component {...pageProps} />

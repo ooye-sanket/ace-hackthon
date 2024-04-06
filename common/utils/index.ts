@@ -1,8 +1,8 @@
 
 
-function mediaURL(fileName: string) {
-  return `${baseURL}/uploads/${fileName}`;
-}
+// function mediaURL(fileName: string) {
+//   return `${baseURL}/uploads/${fileName}`;
+// }
 
 // utility method to parse date from type (yyyy-mm-dd) ---> to type object : { year, month, date }
 function parseDate(date = "") {
@@ -27,4 +27,4 @@ function parseDate(date = "") {
   };
 }
 
-export { baseURL, mediaURL, parseDate };
+// export { baseURL, mediaURL, parseDate };
