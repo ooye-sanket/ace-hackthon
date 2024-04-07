@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 
 // Components Imports
 import { getUpcomingHackathons } from "@/middleware/hackathons-api";
-import { parseDate } from "@/common/utils";
+// import { parseDate } from "@/common/utils";
 import Button from "@/components/ui-patterns/Button";
 
 // Types Imports

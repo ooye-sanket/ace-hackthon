@@ -52,6 +52,6 @@ html {
 }
 
 /* Callout Override, Events Page */
-.small-callout >  span.callout-icon-wrapper > img{
+/* .small-callout >  span.callout-icon-wrapper > img{
       @apply max-sm:w-[44px]
-}
+} */
