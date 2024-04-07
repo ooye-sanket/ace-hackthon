@@ -36,20 +36,20 @@ const UpcomingHackathons: React.FunctionComponent<HackathonCardType> = () => {
         <div className="upcoming-hackathons-content-wrapper wrapped-view flex flex-row items-center justify-between max-sm:flex-col">
           <div>
             <h3 className="upcoming-hackathons-title font-semibold tracking-wider text-sm uppercase text-white text-opacity-50">
-              {"Events / Hackathons"}
+              {"Events"}
             </h3>
             <h1 className="upcoming-hackathons-headline font-product-bungee mt-4 text-4xl flex flex-col text-white items-start justify-start w-fit h-fit max-sm:items-center max-sm:justify-center max-sm:text-product-xl">
-              {"Upcoming Hackathons"}
+              {"Other Communities"}
             </h1>
           </div>
-          <div className="flex flex-row items-center justify-end gap-6 max-sm:flex-col max-sm:mt-6 max-sm:hidden">
+          {/* <div className="flex flex-row items-center justify-end gap-6 max-sm:flex-col max-sm:mt-6 max-sm:hidden">
             <Button type="secondary" shade="product-pink">
               {"All Hackathons"}
             </Button>
             <Button type="secondary" shade="product-teal">
               {"See past hackathons"}
             </Button>
-          </div>
+          </div> */}
         </div>
         <div className="upcoming-hackathons-list-wrapper wrapped-view mt-20">
           {upcomingHackathonsData?.length > 0 ? (

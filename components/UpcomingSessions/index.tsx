@@ -1,9 +1,22 @@
+'use client'
+
 // Basic Imports
+
 import React, { useState } from "react";
 
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Button,
+} from "@material-tailwind/react";
+import Image from "next/image";
+
 // Components Imports
-import Button from "@/components/ui-patterns/Button";
 import { SessionCardSkeleton } from "@/components/ui-patterns/Skeleton";
+import Link from "next/link";
 
 const UpcomingSessions: React.FunctionComponent = () => {
   const [upcomingSessionsData, setUpcomingSessionsData] = useState<any>([]);
@@ -19,42 +32,122 @@ const UpcomingSessions: React.FunctionComponent = () => {
                   {"Events / Sessions"}
                 </h3>
                 <h1 className="upcoming-sessions-headline font-product-bungee mt-4 text-4xl flex flex-col text-product-brown items-start justify-start w-fit h-fit max-sm:items-center max-sm:justify-center max-sm:text-3xl">
-                  {"Upcoming Sessions"}
+                  {"Technical Communities"}
                 </h1>
               </div>
-              <div className="flex flex-row items-center justify-end gap-6 max-sm:flex-col max-sm:mt-6 max-sm:hidden">
-                <Button type="secondary" shade="product-pink">
+              {/* <div className="flex flex-row items-center justify-end gap-6 max-sm:flex-col max-sm:mt-6 max-sm:hidden">
+                <Button  shade="product-pink">
                   {"All Hackathons"}
                 </Button>
-                <Button type="secondary" shade="product-teal">
+                <Button shade="product-teal">
                   {"See past sessions"}
                 </Button>
-              </div>
+              </div> */}
             </div>
-            <div className="upcoming-sessions-list-wrapper wrapped-view mt-20">
-              {upcomingSessionsData?.length > 0 ? (
-                upcomingSessionsData?.map(
-                  (upcomingSession: any, upcomingSessionIndex: number) => (
-                    <SessionCard key={upcomingSessionIndex} />
-                  )
-                )
-              ) : (
-                <div className="skeleton-loading-cards-wrapper grid grid-cols-4 items-start justify-start gap-3 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-12">
-                  <SessionCardSkeleton visibility={40} />
-                  <SessionCardSkeleton visibility={40} />
-                  <SessionCardSkeleton visibility={40} />
-                  <SessionCardSkeleton visibility={40} />
-                </div>
-              )}
-              <div className="flex flex-row items-center justify-end gap-6 hidden max-sm:flex-col max-sm:flex max-sm:justify-center max-sm:items-center max-sm:mt-12">
-            <Button type="secondary" shade="product-pink">
-              {"All Hackathons"}
-            </Button>
-            <Button type="secondary" shade="product-teal">
-              {"See past hackathons"}
-            </Button>
-          </div>
-            </div>
+
+            <div className="flex flex-row items-center">
+          
+
+
+    <Card className="mt-6 w-96">
+      <CardHeader color="blue-gray" className="relative h-56">
+        <Image
+        src="/social/polygon.jpg"
+          alt="card-image"
+          width={350}
+          height={200}
+        />
+      </CardHeader>
+      <CardBody>
+        <Typography variant="h5" color="blue-gray" className="mb-2">
+          Polygon Guild Vadodara
+        </Typography>
+        <Typography>
+          This Community focuses on Blockchain and Web3.
+        </Typography>
+      </CardBody>
+      <CardFooter className="pt-0">
+        <Link href='https://www.buymeacoffee.com/polygonvadodara'>
+        <Button >Read More</Button>
+        </Link>
+      </CardFooter>
+    </Card>
+
+    <Card className="mt-6 w-96">
+      <CardHeader color="blue-gray" className="relative h-56">
+        <Image
+        src="/social/GDG.jpg"
+        width={350}
+        height={200}
+
+          alt="card-image"
+        />
+      </CardHeader>
+      <CardBody>
+        <Typography variant="h5" color="blue-gray" className="mb-2">
+          Google Developer Group Baroda
+        </Typography>
+        <Typography>
+         This is the Google Developer Group.
+        </Typography>
+      </CardBody>
+      <CardFooter className="pt-0">
+
+      <Link href='https://gdg.community.dev/gdg-baroda/'>
+
+        <Button>Read More</Button>
+        </Link>
+      </CardFooter>
+    </Card>
+
+    <Card className="mt-6 w-96">
+      <CardHeader color="blue-gray" className="relative h-56">
+        <Image
+        src="/social/AWS.jpg"
+        width={350}
+        height={200}
+          alt="card-image"
+        />
+      </CardHeader>
+      <CardBody>
+        <Typography variant="h5" color="blue-gray" className="mb-2">
+          AWS Community Vadodara
+        </Typography>
+        <Typography>
+       This is AWS Community
+        </Typography>
+      </CardBody>
+      <CardFooter className="pt-0">
+        <Link href='https://www.meetup.com/aws-community-vadodara/'>
+        <Button>Read More</Button>
+        </Link>
+      </CardFooter>
+    </Card>
+
+    <Card className="mt-6 w-96">
+      <CardHeader color="blue-gray" className="relative h-56">
+        <Image
+        src="/social/CNCF.jpg"
+        width={350}
+        height={200}
+          alt="card-image"
+        />
+      </CardHeader>
+      <CardBody>
+        <Typography variant="h5" color="blue-gray" className="mb-2">
+          CNCF Community 
+        </Typography>
+        <Typography>
+        This Community focuses on Cloud Native and Computing Foundatations.
+        </Typography>
+      </CardBody>
+      <CardFooter className="pt-0">
+        <Link href='https://community.cncf.io/cloud-native-vadodara/'>
+        <Button>Read More</Button>
+        </Link>
+      </CardFooter>
+    </Card>
+    </div>
           </div>
         </div>
       </section>
